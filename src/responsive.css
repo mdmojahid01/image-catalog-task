@@ -1,0 +1,173 @@
+@media screen and (max-width:1200px) {
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 30px;
+    height: fit-content;
+  }
+
+  .top {
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 0px;
+  }
+
+  .left {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .left>img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .right {
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+  }
+
+  .right>h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 110%;
+  }
+
+  .right>p {
+    font-size: 18px;
+    line-height: 130%;
+    overflow: visible;
+    height: fit-content;
+    text-align: justify;
+  }
+
+  .bottom {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .bottom-left {
+    gap: 5px;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .bottom-left>img {
+    width: 16%;
+    height: 80px;
+    border-radius: 8px;
+  }
+
+  .left-arrow>img,
+  .right-arrow>img {
+    width: 25px;
+    height: 25px;
+  }
+
+
+
+  .bottom-right {
+    width: 100%;
+    padding: 5px 20px;
+  }
+
+  .play-button {
+    width: 60px;
+    height: 60px;
+  }
+
+  .play-button>img {
+    width: 25px;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    height: fit-content;
+  }
+
+  .top {
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 0px;
+  }
+
+  .left {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .left>img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .right {
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+  }
+
+  .right>h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 110%;
+  }
+
+  .right>p {
+    font-size: 18px;
+    line-height: 130%;
+    overflow: visible;
+    height: fit-content;
+    text-align: justify;
+  }
+
+  .bottom {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .bottom-left {
+    gap: 5px;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .bottom-left>img {
+    width: 14%;
+    height: 50px;
+    border-radius: 8px;
+  }
+
+
+  .left-arrow>img,
+  .right-arrow>img {
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+  .bottom-right {
+    width: 100%;
+    padding: 5px 20px;
+  }
+
+  .play-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .play-button>img {
+    width: 15px;
+  }
+
+}
